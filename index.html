@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/pokeball-icon-transparent.jpg">
+  
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+   integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+  <link rel="stylesheet" href="./stylesheet.css" >
+  
+  <title>PokeSearcher | Testing app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; bottom: 0px; position: absolute;color: white; }
+    .attribution a { color: hsl(217, 90%, 65%); }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Buscador de pokémon V1.0</h1>
+    <div class="search-container-1 container1">
+      <label>Buscar Pokémon que contenga: </label>
+      <input id="criterio" type="text" placeholder="Ejm: char "/>
+      <input id="criterio2" type="text" placeholder="Ejm: eon "/>
+      <button class="btn btn-success" onclick=searchPokemon() >Buscar</button>
+    </div>
+
+    <div id="resultados" class="resultados-container container1">
+      <h1 id="resultados-title">Resultados:</h1>
+    </div>
+
+
+    
+    
+  </main>
+  
+  <footer class="attribution">
+    Coded by <a href="https://github.com/FireFrozen">FireFrozen</a>.
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
